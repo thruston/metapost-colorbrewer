@@ -13,3 +13,5 @@ Provides
 - colorbrewer-cmyk.mp
 - colorbrewer-rgb.mp
 - colorbrewer-sampler.mp
+
+![Colorbrewer Sampler](colorbrewer-sampler.png)
