@@ -33,12 +33,13 @@ beginfig(1);
         y := y + by * 17/13;
         x := 0;
     endfor
-    label.rt("Single hue, single range",(560,-42));
-    label.rt("Multi-hue, single range", (560,-202));
+    label.rt("Single hue, sequential",(560,-42));
+    label.rt("Multi-hue, sequential", (560,-212));
     label.rt("Assortments",             (560,-552));
-    label.rt("Multi-range", (780,-402));
-    path b; b = unitsquare shifted -(1/2,1/2) yscaled 34 xscaled 233 shifted (720, -120);
+    label.rt("Diverging", (780,-402));
+    path b; b = unitsquare shifted -(1/2,1/2) yscaled 55 xscaled 233 shifted (720, -120);
     fill b withcolor Paired[4][1]; draw b withcolor Paired[4][2];
-    label("Colorbrewer for Metapost" infont "phvb8r" scaled 1.414, center b shifted down);
+    label.top("Colorbrewer for Metapost" infont "phvb8r" scaled 1.414, center b);
+    label.bot("http://colorbrewer2.org", center b shifted 2 down);
 endfig;
 end.
