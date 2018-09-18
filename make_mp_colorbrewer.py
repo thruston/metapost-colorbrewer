@@ -124,6 +124,11 @@ if __name__ == "__main__":
 % In general try not to use too many colours in one chart.
 % The sequences were designed for cartography and may not suit all applications.
 
+message "metapost-colorbrewer - Copyright (C) 2018 Toby Thurston. This program comes with ABSOLUTELY NO WARRANTY. " &
+"This is free software, and you are welcome to redistribute it under certain conditions; read the LICENCE file for details. " &
+"The colorbrewer colours are copyright (C) Cynthia Brewer, Mark Harrower and The Pennsylvania State University. " & 
+"See http://colorbrewer2.org";
+
     ''')
 
 
